@@ -4,7 +4,7 @@
 			"path": "."
 		},
 		{
-			"path": "../tx-lib-shared"
+			"path": "../tx-pkg-misc"
 		}
 	],
 	"settings": {}
