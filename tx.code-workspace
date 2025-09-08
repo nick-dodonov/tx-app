@@ -11,12 +11,15 @@
     {
       "path": "../tx-kit-repo",
       "name": "KIT Repo"
+    },
+    {
+      "path": "../../../../../../opt/homebrew/Cellar/xmake/3.0.2/share/xmake"
     }
   ],
   "settings": {
     "terminal.integrated.env.osx": {
-      "TX_LOCAL_REPO": "yes",
-      "TX_LOCAL_PKG": "yes"
+      "TX_REPO": "$(workspaceFolder)/../tx-kit-repo",
+      "TX_LOCAL": "yes"
     },
 
     // https://github.com/xmake-io/xmake-vscode?tab=readme-ov-file#global-configuration

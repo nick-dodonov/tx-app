@@ -7,16 +7,17 @@
         {
             "type": "xmake",
             "request": "launch",
-            "name": "Debug Demo",
+            "name": "Demo Debug",
             "target": "tx-app-demo",
             "cwd": "${workspaceFolder}",
             "stopAtEntry": false
         },
         // https://xmake.io/guide/best-practices/faq.html#breakpoint-debugging
+        // Attach to debugger after: xrepo env -y -b emmylua_debugger -- xmake f -yc
         {
             "type": "emmylua_new",
             "request": "launch",
-            "name": "EmmyLua XMake",
+            "name": "XMake Attach",
             "host": "localhost",
             "port": 9966,
             "ext": [
