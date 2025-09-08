@@ -1,21 +1,24 @@
 {
   "folders": [
     {
-      "path": "."
+      "path": ".",
+      "name": "APP Demo"
     },
     {
-      "path": "../tx-pkg-misc"
+      "path": "../tx-pkg-misc",
+      "name": "PKG Misc"
     },
     {
-      "path": "../tx-kit-repo"
+      "path": "../tx-kit-repo",
+      "name": "KIT Repo"
     }
   ],
   "settings": {
-    // https://xmake.io/guide/extensions/ide-integration-plugins.html#custom-options
-    "xmake.additionalConfigArguments": [
-      "-y",
-      "--use_local=1"
-    ],
+    "terminal.integrated.env.osx": {
+      "TX_LOCAL_REPO": "yes",
+      "TX_LOCAL_PKG": "yes"
+    },
+
     // https://github.com/xmake-io/xmake-vscode?tab=readme-ov-file#global-configuration
     "xmake.logLevel": "verbose",
     "xmake.buildLevel": "verbose",
