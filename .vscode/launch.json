@@ -7,10 +7,24 @@
         {
             "type": "xmake",
             "request": "launch",
-            "name": "Debug tx-app-demo",
+            "name": "Debug Demo",
             "target": "tx-app-demo",
             "cwd": "${workspaceFolder}",
             "stopAtEntry": false
+        },
+        // https://xmake.io/guide/best-practices/faq.html#breakpoint-debugging
+        {
+            "type": "emmylua_new",
+            "request": "launch",
+            "name": "EmmyLua XMake",
+            "host": "localhost",
+            "port": 9966,
+            "ext": [
+                ".lua",
+                ".lua.txt",
+                ".lua.bytes"
+            ],
+            "ideConnectDebugger": true
         }
     ]
 }
