@@ -1,0 +1,22 @@
+#CompileFlags:
+#   #Add: [-Wall, -Wextra, -Werror, -std=c++17]
+
+Diagnostics:
+  ClangTidy:
+    Add: [modernize-*, performance-*, readability-*]
+    Remove: [hicpp-*]
+    CheckOptions:
+      modernize-use-nullptr.NullMacros: 'NULL'
+      readability-identifier-naming.VariableCase: camelBack
+
+Index:
+  Background: Build
+
+Completion:
+  AllScopes: true
+
+Hover:
+  ShowAKA: true
+
+Style:
+  FullyQualifiedNamespaces: false

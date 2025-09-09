@@ -23,18 +23,28 @@
   ],
   "settings": {
     "terminal.integrated.env.osx": {
-      "TX_REPO": "$(workspaceFolder)/../tx-kit-repo",
+      "TX_REPO": "../tx-kit-repo",
       "TX_LOCAL": "yes"
     },
 
     // https://github.com/xmake-io/xmake-vscode?tab=readme-ov-file#global-configuration
     "xmake.logLevel": "verbose",
     "xmake.buildLevel": "verbose",
+    // https://xmake.io/guide/extensions/ide-integration-plugins.html#custom-options
+    "xmake.additionalConfigArguments": [
+      "-y"
+    ],
+    // By default XMake generates `compile_commands.json` in .vscode (instead of default for clangd build/)
+    //  so specify that path for clangd
+    // https://xmake.io/guide/extensions/ide-integration-plugins.html#clangd
+    "clangd.arguments": [
+      "--compile-commands-dir=.vscode"
+    ],
 
     // IntelliSense configuration
     "files.associations": {
       "iostream": "cpp",
       "ostream": "cpp"
-    }
+    },
   },
 }
