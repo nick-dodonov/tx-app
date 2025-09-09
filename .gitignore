@@ -1,8 +1,14 @@
 # Xmake cache
-.xmake/
-build/
+/.xmake/
 
 # MacOS Cache
 .DS_Store
 
+# Xmake artifacts
+/build/
+# xmake project -k cmake
+/CMakeLists.txt
 
+# CLion project
+/.idea/
+/cmake-build-*/

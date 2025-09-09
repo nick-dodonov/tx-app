@@ -2,21 +2,23 @@
   "folders": [
     {
       "path": ".",
-      "name": "APP Demo"
+      "name": "[App] Demo"
     },
     {
       "path": "../tx-pkg-misc",
-      "name": "PKG Misc"
+      "name": "[Pkg] Misc"
     },
     {
       "path": "../tx-kit-repo",
-      "name": "KIT Repo"
+      "name": "[Kit] Repo"
     },
     {
-      "path": "../../../../../../opt/homebrew/Cellar/xmake/3.0.2/share/xmake"
+      "path": "../../../../../../opt/homebrew/Cellar/xmake/3.0.2/share/xmake",
+      "name": "[XMake] Global"
     },
     {
-      "path": "../../../../.xmake"
+      "path": "../../../../.xmake",
+      "name": "[XMake] Local"
     }
   ],
   "settings": {
