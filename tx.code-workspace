@@ -13,12 +13,13 @@
       "name": "[Kit] Repo"
     },
     {
-      "path": "../../../../../../opt/homebrew/Cellar/xmake/3.0.2/share/xmake",
-      "name": "[XMake] Global"
+      // the only way for cross-platform is to setup symlinks
+      "path":  "../xmake/share/xmake",
+      "name": "[XMake] share"
     },
     {
-      "path": "../../../../.xmake",
-      "name": "[XMake] Local"
+      "path": "../xmake/.xmake",
+      "name": "[XMake] local"
     }
   ],
   "settings": {
