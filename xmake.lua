@@ -9,7 +9,7 @@ includes(".xmake/tx-kit/includes")
 
 add_requires("tx-pkg-misc")
 
-add_requires("quill")
+add_requires("ext-quill", {system = false, alias = "quill", configs = {noexcept = true, shared = false}})
 
 target("tx-app-demo", function () 
     set_kind("binary")
