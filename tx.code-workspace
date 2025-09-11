@@ -44,7 +44,8 @@
     // IntelliSense configuration
     "files.associations": {
       "iostream": "cpp",
-      "ostream": "cpp"
+      "ostream": "cpp",
+      "utility": "cpp"
     },
   },
 }
