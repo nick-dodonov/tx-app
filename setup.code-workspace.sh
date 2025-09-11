@@ -3,7 +3,7 @@
 # They are used in the .code-workspace file for VSCode to simplify debug and intellisense
 set -exo pipefail
 
-_xmake_symlinks_dir=../.xmake
+_xmake_symlinks_dir=../xmake
 mkdir -p $_xmake_symlinks_dir
 
 _xmake_symlink_local=$_xmake_symlinks_dir/.xmake

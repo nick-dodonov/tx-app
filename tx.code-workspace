@@ -14,7 +14,7 @@
     },
     {
       // the only way for cross-platform is to setup symlinks
-      "path":  "../xmake/share/xmake",
+      "path": "../xmake/share/xmake",
       "name": "[XMake] share"
     },
     {
