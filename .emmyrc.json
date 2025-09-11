@@ -1,8 +1,14 @@
 {
+  "$schema": "https://raw.githubusercontent.com/EmmyLuaLs/emmylua-analyzer-rust/refs/heads/main/crates/emmylua_code_analysis/resources/schema.json",
+  "$comment": "https://github.com/EmmyLuaLs/emmylua-analyzer-rust/blob/main/docs/config/emmyrc_json_EN.md",
   "diagnostics": {
-    "undefined-global": false,
     "disable" : [
       "undefined-global"
+    ]
+  },
+  "workspace": {
+    "ignoreDir": [
+      "../xmake"
     ]
   }
 }
