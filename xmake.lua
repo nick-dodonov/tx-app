@@ -16,5 +16,9 @@ target("tx-app-demo", function ()
     add_files("src/*.cpp")
     add_packages("tx-pkg-misc")
 
+    add_cxxflags("-pthread")
+    add_cxxflags("-DQUILL_NO_THREAD_NAME_SUPPORT")
+    --add_ldflags("-sPTHREAD_POOL_SIZE=4")
+
     add_packages("quill")
 end)
