@@ -1,6 +1,6 @@
 #include <iostream>
 #include <Shared/Version.h>
-#include "lwlog.h"
+#include <lwlog.h>
 
 int main(int argc, char** argv)
 {
