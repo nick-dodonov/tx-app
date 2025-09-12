@@ -9,6 +9,10 @@
       "name": "[Pkg] Misc"
     },
     {
+      "path": "../tx-pkg-aux",
+      "name": "[Pkg] Aux"
+    },
+    {
       "path": "../tx-kit-repo",
       "name": "[Kit] Repo"
     },
