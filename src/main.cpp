@@ -1,5 +1,6 @@
 #include <iostream>
 #include <Shared/Version.h>
+#include <Log/Log.h>
 #include <lwlog.h>
 
 int main(int argc, char** argv)
