@@ -1,0 +1,6 @@
+#test only src
+#/.vscode export-ignore
+#/*.* export-ignore
+
+#test w/o all
+* export-ignore
