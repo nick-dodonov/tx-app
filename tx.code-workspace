@@ -5,25 +5,16 @@
       "name": "[App] Demo"
     },
     {
-      "path": "../tx-pkg-misc",
-      "name": "[Pkg] Misc"
+      "path": "../tx-kit-repo",
+      "name": "[Kit] Repo"
     },
     {
       "path": "../tx-pkg-aux",
       "name": "[Pkg] Aux"
     },
     {
-      "path": "../tx-kit-repo",
-      "name": "[Kit] Repo"
-    },
-    {
-      // the only way for cross-platform is to setup symlinks
-      "path": "../xmake/share/xmake",
-      "name": "[XMake] share"
-    },
-    {
-      "path": "../xmake/.xmake",
-      "name": "[XMake] local"
+      "path": "../tx-pkg-misc",
+      "name": "[Pkg] Misc"
     }
   ],
   "settings": {

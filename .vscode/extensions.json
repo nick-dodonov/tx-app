@@ -1,8 +1,13 @@
 {
     "recommendations": [
-        "tboox.xmake-vscode",
         "ms-vscode.cpptools",
+ 
+        // XMake way
+        "tboox.xmake-vscode",
         // https://xmake.io/guide/best-practices/faq.html#breakpoint-debugging
-        "tangzx.emmylua"
+        "tangzx.emmylua",
+
+        // Bazel way
+        "bazelbuild.vscode-bazel"
     ]
 }
