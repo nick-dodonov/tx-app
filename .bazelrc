@@ -1,8 +1,0 @@
-# Workspace-level registry configuration
-build --registry=https://bcr.bazel.build/
-build --registry=https://raw.githubusercontent.com/nick-dodonov/tx-kit-repo/main
-
-# Common settings for all modules in workspace
-build --symlink_prefix=build/bazel-
-build --show_timestamps
-build --verbose_failures
