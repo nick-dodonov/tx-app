@@ -1,7 +1,0 @@
-{
-  // https://xmake.io/guide/extensions/ide-integration-plugins.html#custom-options
-  "xmake.additionalConfigArguments": [
-    "-y"
-  ],
-  "editor.tabSize": 4
-}

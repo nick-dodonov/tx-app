@@ -1,5 +1,0 @@
-# XMake extension artifact
-/compile_commands.json
-
-# Clangd extension artifact
-/.cache/
